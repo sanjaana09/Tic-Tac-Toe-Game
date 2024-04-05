@@ -1,0 +1,78 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    background-color: #ac7b84;
+    text-align: center;
+
+}
+.container{
+    height : 70vh;
+    /* jitna bhi page visible hoga 70 percent part container ke pss rahega chahe humm kitna bhi content likh de*/
+    display : flex ;
+    justify-content: center;
+    align-items: center ;
+    gap: 1.5vmin;
+}
+.game{
+    height: 60vmin; 
+/* vmin means 1 percent of viewport smaller dimension.  */
+    width : 60vmin;
+    display : flex ;
+    flex-wrap : wrap;
+    justify-content: center;
+    align-items: center ;
+    gap: 1.5vmin;
+    /*gap -  to create space between div */
+    
+}
+.box{
+    height : 18vmin ;
+    /* vertical length  */
+    width : 18vmin ;
+    /* horizontal length */
+    border-radius: 1rem;
+    /* curved box aaye is se  */
+    border : none ;
+    box-shadow:  0 0 0.4rem #000000;
+    font-size: 8vmin;
+    /* size of X and O  */
+    color: #54457f;
+    /* color of X and O text  */
+    background-color:#ffffc7 ;
+}
+#reset-btn {
+    padding:1rem ;
+    font-size: 1.25rem;
+    background-color:#4c243b;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+#new-btn {
+    padding : 1rem ;
+    font-size : 1.25rem;
+    background-color :#4c243b;
+    color : #fff;
+    border-radius: 1rem ;
+    border : none;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+.msg-container {
+    height: 100vmin;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    gap: 4rem ;
+}
+
+.hide {
+    display: none ;
+}
